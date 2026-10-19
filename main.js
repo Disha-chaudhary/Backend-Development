@@ -29,3 +29,13 @@
 //ek variable ko jab js mein bante hai to wo variable
 //do hisso mei toot jata hai and uska declare part upar
 //chala jata hai and uska initialization part n
+
+
+//DATA TYPES
+//12 harsh true [] {} () null undefined
+//primitives and  reference datatypes
+// let a =12;
+// let b=a;
+
+// let a = [1,2,3,4];
+// let b = a;
