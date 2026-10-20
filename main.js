@@ -44,12 +44,12 @@
 // let price = 99.5;
 // let temperature = -5;
 
-console.log(typeof age); // number
-console.log(typeof price); // number
-console.log(10 / 0); // Infinity
-console.log("hello" * 2); // NaN
-console.log(Number.isNaN(NaN)); // true
-console.log(0.1 + 0.2); // 0.30000000000000004
+// console.log(typeof age); // number
+// console.log(typeof price); // number
+// console.log(10 / 0); // Infinity
+// console.log("hello" * 2); // NaN
+// console.log(Number.isNaN(NaN)); // true
+// console.log(0.1 + 0.2); // 0.30000000000000004
 
 // // 2. STRING
 // let firstName = "Disha";
@@ -315,3 +315,44 @@ console.log(0.1 + 0.2); // 0.30000000000000004
 // // Correct way to check arrays
 // console.log(Array.isArray([1, 2, 3])); // true
 // console.log(Array.isArray({})); // false
+
+//functiomms
+
+// 1. Basic function
+function greet() {
+    console.log("Hello!");
+}
+greet();
+
+// 2. Parameters
+function add(a, b) {
+    return a + b;
+}
+console.log(add(10, 20));
+
+// 3. Function expression
+const multiply = function(a, b) {
+    return a * b;
+};
+console.log(multiply(4, 5));
+
+// 4. Arrow function
+const divide = (a, b) => a / b;
+console.log(divide(20, 4));
+
+// 5. Default parameter
+function welcome(name = "Guest") {
+    console.log("Welcome, " + name);
+}
+welcome("Disha");
+welcome();
+
+// 6. Function with condition
+function checkEven(n) {
+    if (n % 2 === 0) {
+        return "Even";
+    }
+    return "Odd";
+}
+console.log(checkEven(8));
+console.log(checkEven(7));
