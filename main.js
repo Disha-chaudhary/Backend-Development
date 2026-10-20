@@ -356,3 +356,7 @@ function checkEven(n) {
 }
 console.log(checkEven(8));
 console.log(checkEven(7));
+
+const square = n => n * n;
+
+console.log(square(5));
