@@ -44,12 +44,12 @@
 // let price = 99.5;
 // let temperature = -5;
 
-// console.log(typeof age); // number
-// console.log(typeof price); // number
-// console.log(10 / 0); // Infinity
-// console.log("hello" * 2); // NaN
-// console.log(Number.isNaN(NaN)); // true
-// console.log(0.1 + 0.2); // 0.30000000000000004
+console.log(typeof age); // number
+console.log(typeof price); // number
+console.log(10 / 0); // Infinity
+console.log("hello" * 2); // NaN
+console.log(Number.isNaN(NaN)); // true
+console.log(0.1 + 0.2); // 0.30000000000000004
 
 // // 2. STRING
 // let firstName = "Disha";
