@@ -348,15 +348,21 @@ welcome("Disha");
 welcome();
 
 // 6. Function with condition
-function checkEven(n) {
-    if (n % 2 === 0) {
-        return "Even";
-    }
-    return "Odd";
+// function checkEven(n) {
+//     if (n % 2 === 0) {
+//         return "Even";
+//     }
+//     return "Odd";
+// }
+// console.log(checkEven(8));
+// console.log(checkEven(7));
+
+// const square = n => n * n;
+
+// console.log(square(5));
+
+function greet(name) {
+    console.log("Hello " + name);
 }
-console.log(checkEven(8));
-console.log(checkEven(7));
 
-const square = n => n * n;
-
-console.log(square(5));
+greet();
